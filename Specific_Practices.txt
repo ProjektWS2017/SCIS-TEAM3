@@ -1,0 +1,23 @@
+Specific Practices
+
+Übersicht
+ARD
+	SP 1.1 - Alle
+	SP 1.2 - Christoph
+	SP 2.1 - Daniel
+	SP 2.2 - Doreen
+	SP 3.1 - Kevin
+	SP 3.2 - Martin
+	SP 3.3 - 
+	SP 3.4 - Danis
+	
+SSAD
+	SP 1.1 - Alle
+	SP 1.2 - Christoph
+	SP 1.3 - Martin
+	SP 1.4 - 
+	SP 2.1 - Daniel
+	SP 2.2 - 
+	SP 2.3 - Doreen
+	SP 3.1 - Kevin
+	SP 3.2 - Danis
