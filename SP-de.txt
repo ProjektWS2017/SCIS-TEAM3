@@ -1,0 +1,44 @@
+﻿Specific Practices
+ARD SP 1.1 Stakeholder-Bedürfnisse erfragen
+	1. Stakeholder-Bedürfnisse, Erwartungen, Einschränkungen und externe Schnittstellen
+		1. Engagieren Sie relevante Stakeholder mit Methoden zur Ermittlung von Bedürfnissen, Erwartungen, Einschränkungen und externen Schnittstellen
+
+ARD SP 3.2 Anforderungen analysieren
+	1. Anforderungen Mängel Berichte
+		1. Analysieren Sie die Bedürfnisse, Erwartungen, Einschränkungen und externen Schnittstellen der Stakeholder,
+		um sie in verwandten Themen zu organisieren und Konflikte zu beseitigen.
+			- Ein Programm zur Datei-/Dokumentenverwaltung
+			- schnelles Wiederfinden
+			- sicher sein, dass man die neuste Version hat
+			- wissen wer zuletzt dran gearbeitet hat
+			- 
+			
+	2. Vorgeschlagene Anforderungsänderungen zur Behebung von Mängeln
+		2. Analysieren Sie die Anforderungen, um festzustellen, ob sie die Anforderungen höherer Ebenen erfüllen.
+			- Äderungshistorie um eine Nachverfolgung sicher zustellen
+			- Begründung der Änderung
+			
+	3. Schlüsselanforderungen
+		3. Analysieren Sie die Anforderungen, um sicherzustellen, dass sie vollständig, durchführbar, realisierbar und überprüfbar sind.
+			- Versionsverwaltung
+			- Zugriffsbeschränkung
+			- Kommentarfunktion
+
+	4. Technische Leistungsmaße
+		4. Analysieren und schlagen Sie die Zuordnung der Anforderungen vor.
+			- 
+
+	5. Identifizieren Sie wichtige Anforderungen, die sich stark auf Kosten, Zeitplan, Leistung oder Risiko auswirken.
+		- Suchfunktion
+
+	6. Identifizieren Sie technische Leistungsmessungen, die während der Akquisition verfolgt werden sollen.
+		- 
+
+	7. Analysieren Sie Betriebskonzepte und -szenarien, um Kundenbedürfnisse,
+	Einschränkungen und Schnittstellen zu verfeinern und neue Anforderungen zu erkennen.
+		- 
+
+SSAD SP 1.3 Überprüfen des Anforderungspakets
+	1. Aufzeichnung der Bewertungen des Antragspakets
+		-
+

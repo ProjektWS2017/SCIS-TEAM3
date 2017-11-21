@@ -1,0 +1,26 @@
+Specific Practices
+ARD SP 1.1 Elicit Stakeholder Needs
+	1. Stakeholder needs, expectations, constraints, and external interfaces
+		1. Engage relevant stakeholders using methods for eliciting needs, expectations, constraints, and external interfaces
+
+ARD SP 3.2 Analyze Requirements
+	1. Requirements defects reports	
+		1. Analyze stakeholder needs, expectations, constraints, and external interfaces to organize into related subjects and to remove conflicts.
+			
+	2. Proposed requirements changes to resolve defects	
+		2. Analyze requirements to determine whether they satisfy higher level requirements.
+		
+	3. Key requirements	
+		3. Analyze requirements to ensure that they are complete, feasible, realizable, and verifiable.
+		
+	4. Technical performance measures	
+		4. Analyze and propose the allocation of requirements.
+		
+	5. Identify key requirements that have a strong influence on cost, schedule, performance, or risk.
+	
+	6. Identify technical performance measures to be tracked during the acquisition.
+	
+	7. Analyze operational concepts and scenarios to refine customer needs, constraints, and interfaces and to discover new requirements.
+	
+SSAD SP 1.3	Review the Solicitation Package
+	1. Record of the reviews of the solicitation package
