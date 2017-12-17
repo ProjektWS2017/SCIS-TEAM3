@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/DMN/20151101/dmn.xsd" id="definitions_0fd1g34" name="definitions" namespace="http://camunda.org/schema/1.0/dmn">
+  <decision id="decision" name="BerechtigungsMatrixDocManagement">
+    <decisionTable id="decisionTable" hitPolicy="FIRST">
+      <input id="input1" label="Mitarbeiter">
+        <inputExpression id="inputExpression1" typeRef="string">
+          <text></text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_0ewfpk4" label="Summe Rechnung">
+        <inputExpression id="LiteralExpression_0h3yrvg" typeRef="integer" />
+      </input>
+      <output id="output1" label="Verantowrtlicher zur Rechnungsfreigabe" name="" typeRef="string" />
+      <rule id="row-454030321-2">
+        <description>wird automatisch genehmigt</description>
+        <inputEntry id="UnaryTests_0m9jx2r">
+          <text><![CDATA["Mitarbeiter Gruppe A"]]></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_19ns0cl">
+          <text><![CDATA[<= 1000]]></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0jter6h">
+          <text><![CDATA["genehmigt"]]></text>
+        </outputEntry>
+      </rule>
+      <rule id="row-454030321-5">
+        <inputEntry id="UnaryTests_05ylxvk">
+          <text><![CDATA["Mitarbeiter Gruppe A"]]></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_05r25gy">
+          <text><![CDATA[> 1000]]></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_15w1mr1">
+          <text><![CDATA["Vorgesetzer A"]]></text>
+        </outputEntry>
+      </rule>
+      <rule id="row-454030321-3">
+        <description>wird automatisch genehmigt</description>
+        <inputEntry id="UnaryTests_1j1wlg8">
+          <text><![CDATA["Mitarbeiter Gruppe B"]]></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_07fg4ei">
+          <text><![CDATA[<= 500]]></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0qrrful">
+          <text><![CDATA["genehmigt"]]></text>
+        </outputEntry>
+      </rule>
+      <rule id="row-454030321-6">
+        <inputEntry id="UnaryTests_0hku236">
+          <text><![CDATA["Mitarbeiter Gruppe B"]]></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0den7ny">
+          <text><![CDATA[> 500]]></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_14xrjun">
+          <text><![CDATA["Vorgesetzter B"]]></text>
+        </outputEntry>
+      </rule>
+      <rule id="row-454030321-4">
+        <inputEntry id="UnaryTests_1b9wsw7">
+          <text><![CDATA["Mitarbeiter Gruppe C", "Mitarbeiter Gruppe D"]]></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1ttafkx">
+          <text><![CDATA[> 0]]></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_12tcwmn">
+          <text><![CDATA["Vorgesetzter C"]]></text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>
