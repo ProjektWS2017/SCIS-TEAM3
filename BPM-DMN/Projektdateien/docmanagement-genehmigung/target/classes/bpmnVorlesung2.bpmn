@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd" id="Definitions_1" exporter="Camunda Modeler" exporterVersion="1.11.3" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:collaboration id="Collaboration_1eey00r">
+    <bpmn:participant id="Participant_1snwydu" name="Rechnungsabteilung" processRef="docmanagement-genehmigung"/>
+  </bpmn:collaboration>
+  <bpmn:process id="docmanagement-genehmigung" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>SequenceFlow_1xxrjdn</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:serviceTask id="Task_0in0dii" camunda:class="com.thbrandenburg.camunda.meister.docmanagement.genehmigung.LoggerDelegate" name="Rechnung&#xA;prüfen">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property/>
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1xxrjdn</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_13r3xpa</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="EndEvent_1eo6kt0">
+      <bpmn:incoming>SequenceFlow_13r3xpa</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1xxrjdn" sourceRef="StartEvent_1" targetRef="Task_0in0dii"/>
+    <bpmn:sequenceFlow id="SequenceFlow_13r3xpa" sourceRef="Task_0in0dii" targetRef="EndEvent_1eo6kt0"/>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1eey00r">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds height="36.0" width="36.0" x="167.0" y="371.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="0.0" width="0.0" x="185.0" y="407.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_1snwydu_di" bpmnElement="Participant_1snwydu" isHorizontal="false">
+        <dc:Bounds height="331.0" width="554.0" x="86.0" y="240.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_03lwfpa_di" bpmnElement="Task_0in0dii">
+        <dc:Bounds height="80.0" width="100.0" x="309.0" y="349.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1xxrjdn_di" bpmnElement="SequenceFlow_1xxrjdn">
+        <di:waypoint xsi:type="dc:Point" x="203.0" y="389.0"/>
+        <di:waypoint xsi:type="dc:Point" x="309.0" y="389.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="0.0" width="0.0" x="256.0" y="368.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_1eo6kt0_di" bpmnElement="EndEvent_1eo6kt0">
+        <dc:Bounds height="36.0" width="36.0" x="524.0" y="371.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="0.0" width="0.0" x="542.0" y="411.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_13r3xpa_di" bpmnElement="SequenceFlow_13r3xpa">
+        <di:waypoint xsi:type="dc:Point" x="409.0" y="389.0"/>
+        <di:waypoint xsi:type="dc:Point" x="524.0" y="389.0"/>
+        <bpmndi:BPMNLabel>
+          <dc:Bounds height="0.0" width="0.0" x="466.0" y="368.0"/>
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

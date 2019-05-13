@@ -7,13 +7,13 @@ ARD SP 3.2 Anforderungen analysieren
 	1. Anforderungen Mängel Berichte
 		1. Analysieren Sie die Bedürfnisse, Erwartungen, Einschränkungen und externen Schnittstellen der Stakeholder,
 		um sie in verwandten Themen zu organisieren und Konflikte zu beseitigen.
-			- Ein Programm zur Datei-/Dokumentenverwaltung
+			Ein großes Problem im Unternehmen 
 			- schnelles Wiederfinden
 			- sicher sein, dass man die neuste Version hat
 			- wissen wer zuletzt dran gearbeitet hat
 			- 
 			
-	2. Vorgeschlagene Anforderungsänderungen zur Behebung von Mängeln
+	2. Vorgeschlagene Anforderungsänderungen zur Behebuncxg von Mängeln
 		2. Analysieren Sie die Anforderungen, um festzustellen, ob sie die Anforderungen höherer Ebenen erfüllen.
 			- Äderungshistorie um eine Nachverfolgung sicher zustellen
 			- Begründung der Änderung

@@ -6,6 +6,9 @@
         <inputExpression id="inputExpression1" typeRef="string">
           <text></text>
         </inputExpression>
+        <inputValues id="UnaryTests_09ktcdl">
+          <text><![CDATA["Mitarbeiter Gruppe A","Mitarbeiter Gruppe B","Mitarbeiter Gruppe C","Mitarbeiter Gruppe D"]]></text>
+        </inputValues>
       </input>
       <input id="InputClause_0ewfpk4" label="Summe Rechnung">
         <inputExpression id="LiteralExpression_0h3yrvg" typeRef="integer" />
@@ -59,12 +62,23 @@
       </rule>
       <rule id="row-454030321-4">
         <inputEntry id="UnaryTests_1b9wsw7">
-          <text><![CDATA["Mitarbeiter Gruppe C", "Mitarbeiter Gruppe D"]]></text>
+          <text><![CDATA["Mitarbeiter Gruppe C"]]></text>
         </inputEntry>
         <inputEntry id="UnaryTests_1ttafkx">
           <text><![CDATA[> 0]]></text>
         </inputEntry>
         <outputEntry id="LiteralExpression_12tcwmn">
+          <text><![CDATA["Vorgesetzter C"]]></text>
+        </outputEntry>
+      </rule>
+      <rule id="row-890937498-2">
+        <inputEntry id="UnaryTests_156g6zq">
+          <text><![CDATA["Mitarbeiter Gruppe D"]]></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0g5sdg0">
+          <text><![CDATA[> 0]]></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_11jo9r7">
           <text><![CDATA["Vorgesetzter C"]]></text>
         </outputEntry>
       </rule>
